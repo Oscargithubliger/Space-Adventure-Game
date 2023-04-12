@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Space Adventure Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Space Adventure Game</h1>
+    <div id="spaceship"></div>
+    <div id="asteroid" onclick="hitAsteroid()"></div>
+    <div id="score-container">Score: 0</div>
+    <div id="game-over" style="display:none;">
+      <h2>Game Over</h2>
+      <p>Your spaceship was hit by an asteroid!</p>
+      <button onclick="restartGame()">Restart Game</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
